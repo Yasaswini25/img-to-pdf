@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap);
+*{
+    font-family: 'Nunito',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    padding: 5rem;
+    align-items: center;
+    padding-bottom: 200px;
+    justify-content: center;
+    background-image: url("D:/projects and internships/coders cave/imgtopdfconverter/bg.jpg.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:800px 840px;
+    background-color: rgb(192, 102, 192);
+    
+}
+.header{
+ font-size: 32px;
+ text-align: center;
+ font-weight: 1000;
+}
+.container{
+    width: 450px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+}
+#showImg{
+    display: block;
+    max-width: 400px;
+    min-height: 200px;
+    background-color: rgb(237, 185, 237);
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 2px solid rgb(25, 15, 25) ;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.button{
+    display: flex;
+    border: none;
+}
+
+button, .upload{
+    width: 220px;
+    margin: 50px 20px 10px 20px;
+    text-align: center;
+    position: relative;
+    padding: 10px 5px;
+    background-color: rgb(237, 185, 237);
+    color:rgb(25, 15, 25);
+    display: block;
+    border-radius: 5px;
+   border: 2px solid rgb(25, 15, 25) ;
+}
+
+input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index:1;
+}
+.upload:hover{
+cursor: pointer;
+color: #fff;
+}

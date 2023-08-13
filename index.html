@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to pdf converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">IMAGE to PDF converter</header>
+<div class="container">
+    <!--image show-->
+    <img id="showImg">
+    <!--button-->
+    <div class="button">
+        <div class="upload">
+            <input type="file" onchange="loadFile(event)" name="" accept=".png, .jpeg, .jpg">Upload Image
+        </div>
+        <button onclick="pdfDown()">Download PDF</button>
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
