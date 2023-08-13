@@ -12,7 +12,7 @@ body{
     align-items: center;
     padding-bottom: 200px;
     justify-content: center;
-    background-image: url("D:/projects and internships/coders cave/imgtopdfconverter/bg.jpg.jpg");
+    background-image: url('bg.jpg.jpg');
     background-repeat: no-repeat;
     background-position: right;
     background-size:800px 840px;
